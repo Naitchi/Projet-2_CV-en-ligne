@@ -25,22 +25,37 @@ h3 ,h4 ,h5{
     text-transform: uppercase;
 }
 
-/*body*/
-
-body{
-    margin: 0px;
-    display: flex;
-}
-
 /*header*/
 
+/*photo*/ 
+
 header{
+    display: flex;
+    flex-direction: row;
+}
+
+    #backgroundPhoto{
+        background-color: green;
+        width: 175px;
+        height: 175px;
+        padding: 3.8rem 2.625rem 3.8rem 2.625rem;
+    }
+
+    #photo{
+        width: 175px;
+        height: 175px;
+        background-image: url(izukuPP.jpg);
+        border-radius: 50%;
+        box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.92);
+    }
+
+#titrePrincipaux{
     display: flex;
     width: 70%;
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding: 7rem 0rem 7rem 0rem;
+    padding: 7rem 0rem 7rem 8%;
 }
 
 header h1{
@@ -83,6 +98,13 @@ header h2{
     align-items: flex-start;
 }
 
+/*en dessous de l'header */
+
+#leftAndRightSide{
+    margin: 0px;
+    display: flex;
+}
+
 /* banniere sur le coté */
 
 #leftSide{
@@ -109,16 +131,7 @@ header h2{
     font-size: 1rem;
 }
 
-/*photo*/ 
 
-#photo{
-    width: 175px;
-    height: 175px;
-    margin: 3.25rem 2.5rem 3.25rem 2.5rem;
-    background-image: url(izukuPP.jpg);
-    border-radius: 50%;
-    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.92);
-}
 
 /*contact*/
 #contact p1{
@@ -172,7 +185,7 @@ header h2{
 #propos p{
     margin: 2.10rem;
     width: 12rem;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
 }
 
 /*règle commune a tout le coté droits*/
