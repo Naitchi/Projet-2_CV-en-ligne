@@ -1,0 +1,85 @@
+
+#rightSide{
+    margin-left: 8%;
+}
+
+.fas{
+    color: green;
+}
+
+.poste{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.poste .fas {
+    font-size: 8px;
+    color: green;
+    margin-right: 0.75rem;
+}
+
+article .fa-stack {
+    font-size: 8px;
+    color: green;
+    margin-right: 0.75rem;
+}
+
+/*titre catégories cotés droit*/
+
+#rightSide h3{
+    padding-left: 1rem;
+}
+
+.titre{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px green solid;
+}
+
+.titre .fas{
+    padding-bottom: 3px;
+}
+
+/* description */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+
+.description p{
+    width: 35rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.description h4{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+article{
+    padding-bottom: 30px;
+}
+
+#lesRecommandations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.recommandation{
+    margin-top: 2rem;
+    margin-right: 15rem;
+}
+
