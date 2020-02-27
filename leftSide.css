@@ -30,6 +30,7 @@
 }
 
 .contenuContact p{
+    word-wrap: break-word;
     font-size: 1.2rem;
 }
 
@@ -56,13 +57,12 @@
 /*propos*/
 
 #propos{
-    height: 45%;
+    flex-grow: 2;
     display: flex;
     flex-direction: column;
 }
 
 #contenuPropos{
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,9 +99,10 @@
 #iconeLoisirs{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width:85%;
     height: 150px;
 }
 
