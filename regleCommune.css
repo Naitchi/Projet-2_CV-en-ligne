@@ -37,3 +37,11 @@ body{
     height: 100%;
 }
 
+@media screen and (max-width: 730px)
+{
+    #leftAndRightSide{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

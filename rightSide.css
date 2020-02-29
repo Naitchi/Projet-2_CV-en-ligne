@@ -10,7 +10,7 @@
 
 .poste{
     width: 100%;
-    height: 25%;
+    min-height: 110px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -25,7 +25,15 @@ article .fa-stack {
     color: green;
 }
 
+.point{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 205px;
+}
+
 .dateEtLieu p{
+    min-width: 180px;
     white-space: nowrap;
 }
 
@@ -71,7 +79,7 @@ section{
 
 #formation{
     width: 90%;
-    height:375px;
+    min-height:425px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -82,7 +90,7 @@ section{
 
 #experience{
     width: 90%;
-    height: 500px;
+    min-height: 500px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,13 +101,18 @@ section{
 
 #recommandation{
     width: 90%;
-    height: 15%;
+    min-height: 180px;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+
 }
+
+.recommandation{
+    width: 50%;
+}
+
 #lesRecommandations {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -111,3 +124,37 @@ li{
     margin-bottom: 0.25rem;
 }
 
+@media screen and (max-width: 730px){
+    #rightSide{
+        width: 100%;
+    }
+
+    section{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .poste{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .point{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .description{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #formation{
+        height: auto ;
+    }
+
+    .recommandation{
+        margin-top: 20px;
+    }
+}
