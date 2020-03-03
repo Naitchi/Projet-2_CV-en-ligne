@@ -18,7 +18,7 @@ header{
 #photo{
     width: 175px;
     height: 175px;
-    background-image: url(izukuPP.jpg);
+    background-image: url(../images/avatar.jpg);
     border-radius: 50%;
     box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.92);
 }
