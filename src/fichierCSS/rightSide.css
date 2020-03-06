@@ -1,11 +1,11 @@
 
 #rightSide{
     width: 75%;
-    height: 1200px;
+    min-height: 1200px;
 }
 
 .fas{
-    color: green;
+    color: yellow;
 }
 
 .poste{
@@ -13,31 +13,38 @@
     min-height: 110px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 } 
 
 .poste .fas {
     font-size: 8px;
-    color: green;
+    padding-right: 8px;
+    color: yellow;
 }
+
 article .fa-stack {
     font-size: 8px;
-    color: green;
+    color: yellow;
 }
 
 .point{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 205px;
+    min-width: 210px;
+    max-width:400px;
+    margin-right: 5px;
 }
 
 .dateEtLieu p{
     min-width: 180px;
+    font-weight: bold;
     white-space: nowrap;
 }
 
 #rightSide h3{
+    font-size: 1.5rem;
+    font-weight: bold;
     padding-left: 1rem;
 }
 
@@ -45,17 +52,17 @@ article .fa-stack {
     width: 100%;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px green solid;
+    border-bottom: 2px yellow solid;
 }
 
 .titre .fas{
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
-/* description */
+/* PARTIE DESCRIPTION */
 
 .description {
-    width: 75%;
+    width: 70%;
     height:100%;
     display: flex;
     flex-direction: column;
@@ -63,8 +70,24 @@ article .fa-stack {
     align-items: flex-start;
 }
 
+.description h4{
+    padding: 5px 0 5px 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
 
-/*section*/
+.description h5{
+    padding: 5px 0 5px 0;
+    font-size: 1rem;
+}
+
+.description p{
+    padding: 5px 0 5px 0;
+    font-size: 1rem;
+}
+
+
+/*PARTIE SECTION*/
 
 section{
     height: 100%;
@@ -75,7 +98,7 @@ section{
     align-items:center ;
 }
 
-/*formation*/
+/*PARTIE FORMATION*/
 
 #formation{
     width: 90%;
@@ -86,7 +109,7 @@ section{
     align-items: center;
 }
 
-/*experience*/
+/*PARTIE EXPERIENCE*/
 
 #experience{
     width: 90%;
@@ -97,14 +120,14 @@ section{
     align-items: center;
 }
 
-/*recommandations*/
+/*PARTIE RECOMMANDATIONS*/
 
 #recommandation{
     width: 90%;
     min-height: 180px;
     display:flex;
     flex-direction: column;
-
+    justify-content: space-around;
 }
 
 .recommandation{
@@ -120,11 +143,22 @@ section{
 }
 
 li{
+    font-weight: bold;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
 }
 
-@media screen and (max-width: 730px){
+.recommandation li:last-child{
+    font-weight: lighter;
+}
+
+.recommandation h5{
+    font-size: 1.1rem;
+}
+
+/*PARTIE RESPONSIVE*/
+
+@media screen and (max-width: 960px){
     #rightSide{
         width: 100%;
     }
@@ -134,7 +168,7 @@ li{
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 540px){
     .poste{
         flex-direction: column;
         height: auto;
@@ -143,6 +177,7 @@ li{
     .point{
         margin-top: 10px;
         margin-bottom: 10px;
+        width: 210px;
     }
 
     .description{

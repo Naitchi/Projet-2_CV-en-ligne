@@ -21,7 +21,7 @@ span{
     color: #2c2f33;
 }
 
-h3 ,h4 ,h5{
+h3 ,h4 ,.recommandation h5{
     text-transform: uppercase;
 }
 
@@ -37,7 +37,9 @@ body{
     height: 100%;
 }
 
-@media screen and (max-width: 730px)
+/*PARTIE RESPONSIVE*/
+
+@media screen and (max-width: 960px)
 {
     #leftAndRightSide{
         display: flex;
