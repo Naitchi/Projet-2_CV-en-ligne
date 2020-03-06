@@ -6,8 +6,10 @@ header{
     height: 300px;
 }
 
+/*PARTIE PHOTO*/
+
 #backgroundPhoto{
-    background-color: green;
+    background-color: yellow;
     width: 25%;
     height: 100%;
     display: flex;
@@ -19,13 +21,24 @@ header{
     width: 175px;
     height: 175px;
     background-image: url(../images/avatar.jpg);
+    border: 5px solid #FFD700;
     border-radius: 50%;
-    box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.92);
+}
+
+/*PARTIE TITRES*/
+
+#rightSideHeader{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #titrePrincipaux{
     display: flex;
-    width: 62%;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: left;
@@ -35,21 +48,20 @@ header h1{
     text-transform: uppercase;
     font-weight: normal;
     font-size: 2.5rem;
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0;
+    margin: 0;
 }
 
 header h2{
     font-size: 1.2rem;
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0;
+    margin: 0;
 }
 
 #titrePeint{
     font-weight: bold;
-    color: green;
+    color: yellow;
     padding-right: 0.3rem;
-
 }
 
 #nom{
@@ -58,10 +70,10 @@ header h2{
 }
 
 #motSoulignie{
-    border-bottom: green solid 1px;
+    border-bottom: yellow solid 2px;
     display: inline;
-    padding: 0rem;
-    margin: 0rem;
+    padding: 0;
+    margin: 0;
 }
 
 #travail{
@@ -71,7 +83,9 @@ header h2{
     align-items: flex-start;
 }
 
-@media screen and (max-width: 730px){
+/*PARTIE RESPONSIVE*/
+
+@media screen and (max-width: 960px){
 
     header{
         display: flex;
@@ -89,7 +103,7 @@ header h2{
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 540px){
     #nom{
         flex-wrap: wrap;
     }
