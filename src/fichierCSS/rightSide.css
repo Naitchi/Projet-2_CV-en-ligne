@@ -43,7 +43,7 @@ article .fa-stack {
 }
 
 #rightSide h3{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     padding-left: 1rem;
 }
@@ -59,6 +59,10 @@ article .fa-stack {
     padding-bottom: 5px;
 }
 
+.titre h3{
+    font-weight: bold;
+}
+
 /* PARTIE DESCRIPTION */
 
 .description {
@@ -72,18 +76,18 @@ article .fa-stack {
 
 .description h4{
     padding: 5px 0 5px 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .description h5{
     padding: 5px 0 5px 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .description p{
     padding: 5px 0 5px 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 

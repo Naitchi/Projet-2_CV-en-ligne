@@ -10,15 +10,12 @@
 /*REGLES COMMUNE A TOUTE LA PARTIE GAUCHE*/
 
 #leftSide h3{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
+    font-weight: bold;
     background-color: #2c2f33;
     color: yellow;
     padding: 5px 0px 5px 0px;
-}
-
-#leftSide p{
-    font-size: 1.2rem;
 }
 
 /*PARTIE CONTACT*/
@@ -32,7 +29,7 @@
 .contenuContact p{
     font-weight: bold;
     word-wrap: break-word;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 #contact{
@@ -77,7 +74,7 @@
 }
 
 #propos p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 80%;
     margin-bottom: 2rem;
 }
