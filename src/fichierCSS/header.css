@@ -9,7 +9,7 @@ header{
 /*PARTIE PHOTO*/
 
 #backgroundPhoto{
-    background-color: yellow;
+    background-color: #F0C300;
     width: 25%;
     height: 100%;
     display: flex;
@@ -21,7 +21,7 @@ header{
     width: 175px;
     height: 175px;
     background-image: url(../images/avatar.jpg);
-    border: 5px solid #FFD700;
+    border: 5px solid #B8860B;
     border-radius: 50%;
 }
 
@@ -60,7 +60,7 @@ header h2{
 
 #titrePeint{
     font-weight: bold;
-    color: yellow;
+    color: #F0C300;
     padding-right: 0.3rem;
 }
 
@@ -70,7 +70,7 @@ header h2{
 }
 
 #motSoulignie{
-    border-bottom: yellow solid 2px;
+    border-bottom: #F0C300 solid 2px;
     display: inline;
     padding: 0;
     margin: 0;

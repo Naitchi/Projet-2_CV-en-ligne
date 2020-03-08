@@ -5,7 +5,7 @@
 }
 
 .fas{
-    color: yellow;
+    color: #F0C300;
 }
 
 .poste{
@@ -19,12 +19,12 @@
 .poste .fas {
     font-size: 8px;
     padding-right: 8px;
-    color: yellow;
+    color: #F0C300;
 }
 
 article .fa-stack {
     font-size: 8px;
-    color: yellow;
+    color: #F0C300;
 }
 
 .point{
@@ -52,7 +52,7 @@ article .fa-stack {
     width: 100%;
     display: flex;
     flex-direction: row;
-    border-bottom: 2px yellow solid;
+    border-bottom: 2px #F0C300 solid;
 }
 
 .titre .fas{
