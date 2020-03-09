@@ -20,10 +20,17 @@
 
 /*PARTIE CONTACT*/
 
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 350px;
+}
+
 #contact h3{
     width: 100%;
     padding: 5px 0 5px 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .contenuContact p{
@@ -32,16 +39,9 @@
     font-size: 0.9rem;
 }
 
-#contact{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 460px;
-}
-
 #toutLesContact{
     width: 100%;
-    min-height: 370px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;

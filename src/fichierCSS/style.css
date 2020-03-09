@@ -1,10 +1,11 @@
-@font-face{
+/*@font-face{
     font-family: 'roboto';
     src: url(../police/Roboto-Light.ttf);
-}
+}*/
 
 *{
-    font-family: 'roboto',Arial, Helvetica, sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     margin: 0px;
     padding: 0px;
 }

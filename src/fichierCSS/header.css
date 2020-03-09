@@ -21,7 +21,7 @@ header{
     width: 175px;
     height: 175px;
     background-image: url(../images/avatar.jpg);
-    border: 5px solid #B8860B;
+    border: 4px solid #DAA520;
     border-radius: 50%;
 }
 
@@ -33,7 +33,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #titrePrincipaux{
@@ -46,7 +45,6 @@ header{
 
 header h1{
     text-transform: uppercase;
-    font-weight: normal;
     font-size: 2.5rem;
     padding: 0;
     margin: 0;
@@ -59,7 +57,7 @@ header h2{
 }
 
 #titrePeint{
-    font-weight: bold;
+    /*font-weight: lighter;*/
     color: #F0C300;
     padding-right: 0.3rem;
 }

@@ -36,20 +36,37 @@ article .fa-stack {
     margin-right: 5px;
 }
 
+.point .fas{
+    padding-top: 3px;
+}
+
+.pointStack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 210px;
+    max-width:400px;
+    margin-right: 5px;
+}
+
 .dateEtLieu p{
     min-width: 180px;
     font-weight: bold;
     white-space: nowrap;
 }
 
+/*TITRES ARTICLE*/
+
 #rightSide h3{
     font-size: 1.6rem;
     font-weight: bold;
+    padding-top: 5px;
     padding-left: 1rem;
 }
 
 .titre{
     width: 100%;
+    height: 45px;
     display: flex;
     flex-direction: row;
     border-bottom: 2px #F0C300 solid;
