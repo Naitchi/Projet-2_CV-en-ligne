@@ -85,6 +85,10 @@ header h2{
     align-items: flex-start;
 }
 
+#nom{
+        flex-wrap: wrap;
+}
+
 /*PARTIE RESPONSIVE*/
 
 @media screen and (max-width: 960px){
@@ -107,11 +111,5 @@ header h2{
     #titrePrincipaux{
         width: 100%;
         min-height: 300px;
-    }
-}
-
-@media screen and (max-width: 540px){
-    #nom{
-        flex-wrap: wrap;
     }
 }

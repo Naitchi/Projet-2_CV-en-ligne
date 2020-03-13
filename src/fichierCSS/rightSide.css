@@ -31,7 +31,7 @@ article .fa-stack {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 245px;
+    width: 33.2%;
     margin-top: 3px;
 }
 
@@ -43,12 +43,11 @@ article .fa-stack {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 245px;
+    width: 33.2%;
     margin-top: 3px;
 }
 
 .dateEtLieu p{
-    min-width: 180px;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -228,5 +227,10 @@ li{
 
     .recommandation{
         margin-top: 20px;
+    }
+
+    #rightSide h3{
+        font-size: 1.6rem;
+        width: 310px;
     }
 }
